@@ -23,6 +23,7 @@ our [User Manual](https://selenium.dev/documentation/) for detailed examples and
 get stuck, there are several ways to [Get Help](https://www.selenium.dev/support/).
 
 ## Contributing
+## By Mudassir Alam
 
 Please read [CONTRIBUTING.md](https://github.com/SeleniumHQ/selenium/blob/trunk/CONTRIBUTING.md)
 before submitting your pull requests.
