@@ -335,7 +335,7 @@ public class DockerSessionFactory implements SessionFactory {
 
   private Container startVideoContainer(
       Capabilities sessionCapabilities, String browserContainerIp, String hostPath) {
-    if (!recordVideoForSession(sessionCapabilities)) {
+    if (videoImage == null || !recordVideoForSession(sessionCapabilities)) {
       return null;
     }
     int videoPort = 9000;
